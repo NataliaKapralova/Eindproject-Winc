@@ -18,7 +18,12 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <h1> EindProject </h1>
+         <header>
+          Eindproject Winc Academy
+          <i>
+            <p> Student DashBord</p>
+          </i>
+        </header>
       <Router>
         <Switch>
           <Container path="/" exact component={Container} />
@@ -34,6 +39,7 @@ function App() {
           <Route path="/PageWietske" component={PageWietske} />
         </Switch>
       </Router>
+      <footer>{"Natalia Kapralova. Student Winc Academy"}</footer>
     </div>
   );
 }

@@ -1,20 +1,53 @@
-.App { 
-    text-align: center;
-}
-.Nav-Links{
-    justify-content: space-evenly;
-    display: flex;
-    
+@import url(https://fonts.googleapis.com/css?family=Poppins&display=swap);
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: White;
 }
 
-li{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
+.App {
+  text-align: center;
+  justify-content: center;
+}
+.Nav-Links {
+  justify-content: space-evenly;
+  display: flex;
+}
+header {
+  padding-top: 1px;
+  background-color: rgb(41, 181, 236);
+  color: white;
+  font-size: 40px;
 }
 
-nav{
-    background-color: #eeee;
-    font-size: 20px ;
+footer {
+  background-color: rgb(41, 181, 236);
+  margin-top: 100px;
+  padding-left: 25px;
+  color: white;
+  font-size: 30px;
+  display: flex;
+}
+li,
+a {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-decoration: none;
+}
 
+li:hover,
+a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+nav {
+  height: 50px;
+  font-size: 20px;
+}
+
+h1 {
+  color: #4abdac;
+  font-size: 50px;
 }
